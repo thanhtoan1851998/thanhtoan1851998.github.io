@@ -1,0 +1,72 @@
+/* CSS Document */
+.body{
+	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-masthead.jpg");
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form-control{
+	width: 500px;
+	height: 30px;
+}
+.build{
+	width: 700px;
+}
+.icon-bot{
+		font-size: 400%;
+	color: blue;
+}
+.A{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hinh1{
+	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-showcase-1.jpg");
+	height: 500px;
+}
+.hinh2{
+	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-showcase-2.jpg");
+	height: 500px;
+}
+.aa{
+	padding-left: 60px;
+}
+.hinh3{
+	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-showcase-3.jpg");
+	height: 500px;
+}
+.imgg img{
+	width: 180px;
+	clip-path: circle(50% at 50% 50%);
+}
+.body-2{
+	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-masthead.jpg");
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.B{
+	height:40px;
+}
+.icon-bot-2{
+	font-size: 200%;
+	color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 40px;
+}
+.footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 140px;	
+}
