@@ -1,52 +1,55 @@
-/* CSS Document */
+.*{
+	margin: 0;
+	padding: 0;
+}
 .body{
-	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-masthead.jpg");
-	height: 600px;
+	background: url("img/bg-masthead.jpg");
+	height: 700px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .form-control{
-	width: 500px;
-	height: 30px;
+	width: 600px;
+	height: 40px;
 }
 .build{
-	width: 700px;
+	width: 800px;
 }
 .icon-bot{
-		font-size: 400%;
+		font-size: 500%;
 	color: blue;
 }
-.A{
-	padding-top: 80px;
-	padding-bottom: 80px;
+.bot{
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .row{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.hinh1{
-	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-showcase-1.jpg");
-	height: 500px;
+.pic1{
+	background: url("img/bg-showcase-1.jpg");
+	height: 600px;
 }
-.hinh2{
-	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-showcase-2.jpg");
-	height: 500px;
+.pic2{
+	background: url("img/bg-showcase-2.jpg");
+	height: 600px;
 }
-.aa{
+.ok{
 	padding-left: 60px;
 }
-.hinh3{
-	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-showcase-3.jpg");
-	height: 500px;
+.pic3{
+	background: url("img/bg-showcase-3.jpg");
+	height: 600px;
 }
 .imgg img{
-	width: 180px;
+	width: 200px;
 	clip-path: circle(50% at 50% 50%);
 }
 .body-2{
-	background: url("file:///C|/Users/Admin/Desktop/D1905L1_ID FINISH/img/bg-masthead.jpg");
+	background: url("img/bg-masthead.jpg");
 	background-repeat: no-repeat;
 	background-position: center 50%;
 	height: 400px;
@@ -58,15 +61,34 @@
 	height:40px;
 }
 .icon-bot-2{
-	font-size: 200%;
+	font-size: 300%;
 	color: blue;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-left: 40px;
 }
-.footer{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 140px;	
+.footerr{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 150px;	
+}
+
+#myBtn {
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: blue; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px;
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #555; 
 }
